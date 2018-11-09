@@ -5,17 +5,17 @@ spring:
     system-datasource: #系统运行库
       driverClassName: oracle.jdbc.driver.OracleDriver
       url: jdbc:oracle:thin:@//127.0.0.1:1521/datacentre
-      username: 'test'
-      password: 'test'
+      username: 'USR_MDC'
+      password: 'BOSSSOFT123'
     czbz-datasource: #标准表空间
       driverClassName: oracle.jdbc.driver.OracleDriver
       url: jdbc:oracle:thin:@//127.0.0.1:1521/datacentre
-      username: 'USR_CZBZ'
-      password: 'USR_CZBZ'
+      username: 'USR_CODE'
+      password: 'BOSSSOFT123'
     main-datasource: #主数据源
       driverClassName: oracle.jdbc.driver.OracleDriver
-      username: 'USR_MAIN'
-      password: 'USR_MAIN'
+      username: 'USR_DATA'
+      password: 'BOSSSOFT123'
       url: jdbc:oracle:thin:@//127.0.0.1:1521/datacentre
   redis: #redis 配置
     host: localhost
