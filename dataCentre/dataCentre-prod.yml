@@ -14,7 +14,7 @@ spring:
       password: '{cipher}9f1f96fe7e9c91ef4733b04f37794476a86cdee56582591e04e638679d62fe4e'
 
   redis: #redis 配置
-    host: localhost
+    host: 192.168.1.170
     port: 6379
 
 logging:
@@ -29,9 +29,9 @@ eureka:
 
 service:
 #    用户中心登录验证
-    loginUrl: http://localhost:8282/appframe-web/u/submitLogin.do
+    loginUrl: http://192.168.1.170:8081/appframe-web/u/submitLogin.do
 #    用户中心根据用户信息获取菜单接口
-    menuUrl: http://localhost:8282/appframe-web/platform/appframe/afauser/getMenuRelation.do
+    menuUrl: http://192.168.1.170:8081/appframe-web/platform/appframe/afauser/getMenuRelation.do
 
 swagger: 
   enable: false
