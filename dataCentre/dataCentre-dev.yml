@@ -14,8 +14,8 @@ spring:
       password: 'BOSSSOFT123'
     main-datasource: #主数据源
       driverClassName: oracle.jdbc.driver.OracleDriver
-      username: 'USR_MAIN'
-      password: 'USR_MAIN'
+      username: 'USR_DATA'
+      password: 'BOSSSOFT123'
       url: jdbc:oracle:thin:@//192.168.1.169:1521/orcl
   redis: #redis 配置
     host: 192.168.1.170
